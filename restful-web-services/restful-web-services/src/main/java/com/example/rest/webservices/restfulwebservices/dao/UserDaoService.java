@@ -11,6 +11,9 @@ import com.example.rest.webservices.restfulwebservices.model.User;
 @Component
 public class UserDaoService {
 
+	/* we are using a list to mimic the action of find users, save user and retrieve user
+	 * based on id from db*/
+	
 	private static List<User> users = new ArrayList<>();
 	
 	private static int usersCount = 3;
