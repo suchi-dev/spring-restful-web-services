@@ -32,7 +32,12 @@ Helps to add links (actions related to the current resource -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
-
+		<!-- Added dependency to accpt xml data format -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+		
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
