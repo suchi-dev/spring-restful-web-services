@@ -26,6 +26,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<!-- -HATEOAS - Hypermedia as the Engine of Application State --><!-- 
+Helps to add links (actions related to the current resource -->
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
 
 
 		<dependency>
