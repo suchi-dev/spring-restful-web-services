@@ -26,18 +26,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<!-- -HATEOAS - Hypermedia as the Engine of Application State --><!-- 
-Helps to add links (actions related to the current resource -->
-	<dependency>
+		<!-- -HATEOAS - Hypermedia as the Engine of Application State --><!-- Helps to add links (actions related to the current resource -->
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
 		<!-- Added dependency to accpt xml data format -->
-		<dependency>
+		<!--  <dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>-->
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.6</version>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
